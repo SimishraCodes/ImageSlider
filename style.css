@@ -164,6 +164,14 @@ header .menu{
     inset: auto 10px 10px 10px;
 }
 @media screen and (max-width: 678px) {
+    header .logo {
+        font-size:medium;
+    }
+    header .menu {
+        font-size: 15px;
+        gap:5px;
+        
+    }
     .thumbnail{
         justify-content: start;
     }
